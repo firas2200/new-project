@@ -1,0 +1,197 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+    height: 90%; 
+    background-image: url( "https://www.discovertunisia.com/en/sites/default/files/slider1.jpg ");
+    
+  } 
+  h1 {
+    font-size: 4em;
+    font-weight: bold;
+    color: #333;
+    justify-content: center;
+    margin-bottom: 10px;
+    animation: fadeIn 0.7s ease-out;
+}
+  
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-button {
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 26px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #801c1c;
+}
+
+.nav-button:active {
+    background-color: #444;
+    transform: translateY(2px);
+}
+
+.swimmingButton {
+    background-color: #1E90FF; 
+}
+
+.campingButton {
+    background-color: #228B22; 
+}
+
+.gamingButton {
+    background-color: #800080; 
+}
+
+.partyButton {
+    background-color: #FF6347; 
+}
+   
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border:#333;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center; 
+    position: center;
+}
+.button:hover {
+    background-color: #0056b3;
+}
+#show {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+  padding: 20px;
+}
+
+
+.card {
+  background-color: rgba(255, 255, 255, 0.855);
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(212, 25, 25, 0.593);
+  margin: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 320px; 
+}
+
+
+
+
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; 
+  border-radius: 20px ;
+}
+
+
+.card-body {
+  padding: 25px;
+}
+
+
+.card-title {
+  font-size: 1.6em;
+  margin-bottom: 10px;
+  color: #333; 
+  
+}
+
+
+.card-text.location {
+  font-size: 1em;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+
+.card-text.price {
+  font-size: 1.2em;
+  color: #0d529c;
+  font-weight: bold;
+}
+
+
+
+
+
+
+.detail-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+#detailContent {
+  background-color: white;
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#detail-img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+#backButton {
+  padding: 10px 20px;
+  background-color: #0b4e97;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+#backButton:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
