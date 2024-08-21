@@ -56,7 +56,8 @@ function each(coll, f) {
 
 var idGenerate = generateId();
 
-// Function to create a destination object
+
+
 function destination(name) {
   return {
     name,
@@ -126,6 +127,11 @@ var party = destination("Party")
 swimming.addNewdestination('Thalassa', 80, "Sousse", ["thalassa.jpg"]);
 swimming.addNewdestination('Aqua Splash', 50, "Sousse", ["aqua.jpg"]);
 swimming.addNewdestination('folla', 100, "Sousse", ["folla.jpg"]);
+swimming.addNewdestination('Movenpick', 200, "Sousse", ["mov.jpg"]);
+swimming.addNewdestination('Mouradi', 90, "Sousse", ["moradi.webp"]);
+swimming.addNewdestination('Jazz tour khalaf', 80, "Sousse", ["tour.jpg"]);
+
+
 
 camping.addNewdestination('Centre Camping Eye', 100, "Bizert", ["camping2.jpg"]);
 camping.addNewdestination('Centre Camping Iheb', 100, "Ain Draham", ["camp.jpg"]);
@@ -134,10 +140,14 @@ camping.addNewdestination('Centre Camping Amal', 100, "Tozeur", ["sahraa.webp"])
 gaming.addNewdestination('gaming room', 100, "mall of sousse", ["mallsousse.jpg "]);
 gaming.addNewdestination('carting', 80, "hergla sousse", ["karting.jpg "]);
 gaming.addNewdestination('tags', 150, "mestir", ["tags.jpg"]); 
+gaming.addNewdestination('gaming room', 100, "mall of sfax", ["sfax mall.jpg "]);
 
 party.addNewdestination('saloon', 150, "sousse", ["saloon.jpg "]);
 party.addNewdestination('three house', 120, "sousse", ["tree.jpg "]);
 party.addNewdestination('zebra', 100, "gammarth", ["zebra.jpg "]);
+party.addNewdestination('Golf', 100, "sousse", ["golf.jpg "]);
+party.addNewdestination('cesar', 5, "sousse", ["cesar.jpg "]);
+party.addNewdestination('after work', 20, "gammarth", ["after.jpg "]);
 
 
 $(".swimmingButton").on("click", function() {
